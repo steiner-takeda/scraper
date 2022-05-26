@@ -10,7 +10,6 @@ def job():
     print("Srilanka extracted at " + str(datetime.now()))
     os.system('python3 india.py')
     print("India extracted at " + str(datetime.now()))
-    
     os.system('python3 singapore.py')
     print("Singapore extracted at " + str(datetime.now()))
 
